@@ -38,7 +38,6 @@ header{
     /* border: 2px solid green; */
     vertical-align: top;
     font-size: 20px;
-
 }
 
 .navbar div {
@@ -260,7 +259,7 @@ header{
 
 /* services section  */
 .services-section{
-    margin-bottom: 100px;
+    margin-bottom: 200px;
 }
 .services-section-left-segment, .services-section-right-segment{
     display: inline-block;
@@ -321,4 +320,112 @@ header{
 .services-section-inner-img img{
     height: 300px;
     border: 10px solid white;
+}
+
+/* customer feedback section  */
+.customer-feedback-section{
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+.feedback-header h1, span{
+    display: inline-block;
+}
+.feedback-header h1{
+    width: 70%;
+    /* border: 2px solid red; */
+    font-weight: 500;
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    vertical-align: middle;
+}
+.feedback-header span{
+    width: 30%;
+    /* border: 2px solid green; */
+    text-align: right;
+}
+span .left-arrow, span .right-arrow{
+    display: inline-block;
+    width: 40px;
+    height: 40px; 
+    /* text-decoration: none; */
+    text-align: middle;
+    border-radius: 50%;
+    line-height: 40px;
+    text-align: center;
+}
+.left-arrow{
+    background-color:lightgray;
+    color: #3361ec;
+    margin-right: 20px;
+}
+.right-arrow{
+    background-color:#3361ec;
+    color: white;
+}
+.feedback-left-segment, .feedback-right-segment{
+    display: inline-block;
+    width: 50%;
+}
+.feedback-img, .feedback-content{
+    display: inline-block;
+    vertical-align: top;
+}
+.feedback-img{
+    width: 40%;
+    height: 300px;
+}
+.feedback-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.feedback-content{
+    width: 60%;
+    height: 300px;
+    padding: 25px 10px;
+    text-align: justify;
+    background-color: #f1f6f7;
+    
+}
+.feedback-content p{
+    margin-bottom: 20px;
+}
+
+/* footer */
+footer{
+    /* margin-bottom: 100px; */
+    background-color:#f1f6f7;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.logo{
+    /* border: 2px solid red; */
+}
+.footer-link-items, .social-icon{
+    display: inline-block;
+    vertical-align: bottom;
+}
+.footer-link-items{
+    width: 50%;
+    /* border: 2px solid green; */
+    text-align: center;
+}
+.footer-link-items li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+}
+.footer-link-items a{
+    text-decoration: none;
+    color: gray;
+}
+.social-icon{
+    width: 25%;
+    /* border: 2px solid blue; */
+    text-align: right;
+}
+.social-icon i{
+    color: #3361ec;
+    margin-left: 10px;
 }
