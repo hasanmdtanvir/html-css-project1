@@ -257,3 +257,68 @@ header{
     border: 1px solid gray;
     color: black;
 }
+
+/* services section  */
+.services-section{
+    margin-bottom: 100px;
+}
+.services-section-left-segment, .services-section-right-segment{
+    display: inline-block;
+    vertical-align: middle;
+}
+.services-section-left-segment{
+    width: calc(60% - 10px);
+    margin-right: 10px;
+    /* padding: 80px 0; */
+}
+.services-section-right-segment{
+    width: calc(40% - 70px);
+    margin-left: 10px;
+}
+.services-section-left-segment h1{
+    font-weight: 500;
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+.services-content{
+    margin-bottom: 20px;
+}
+.services-icon{
+    width: 40px;
+    height: 40px;
+    background-color:#3361ec;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: white;
+}
+.services-icon-details{
+    width: calc(100% - 60px);
+    margin-left: 20px;
+}
+.services-icon-details p{
+   color: gray;
+}
+.services-icon, .services-icon-details{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.services-section-outer-img{ 
+    position: relative;
+}
+.services-section-outer-img img{
+    height: 600px;
+    width: 100%;
+    object-fit: cover;
+}
+.services-section-inner-img{
+    position: absolute;
+    bottom: -80px;
+    right: -60px;
+}
+.services-section-inner-img img{
+    height: 300px;
+    border: 10px solid white;
+}
