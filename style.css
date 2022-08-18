@@ -15,7 +15,7 @@
 }
 
 header{
-    margin-bottom: 100px;
+    margin-bottom: 300px;
 }
 .common-color {
     color: #3361ec;
@@ -156,4 +156,54 @@ header{
 }
 .second-row a:last-child{
     color: white;
+}
+
+/* interior demo section  */
+
+.interior-demo{
+    margin-bottom: 100px;
+}
+.left-img-segment, .right-img-segment, .right-top-left-img-segment, .right-top-right-img-segment{
+    display: inline-block;
+    vertical-align: top;
+}
+.left-img-segment{
+    width: calc(30% - 10px);
+    margin-right: 10px;
+}
+.left-img-segment img{
+    width: 100%;
+    object-fit: cover;
+}
+.left-first img{
+    height: 200px;
+    margin-bottom: 10px;
+    object-fit: cover;
+}
+.left-second img{
+    height: 400px;
+    object-fit: cover;
+}
+.right-img-segment {
+    width: calc(70% - 10px);
+    margin-left: 10px;
+}
+.right-top-left-img-segment, .right-top-right-img-segment{
+    width: calc(50% - 10px);
+    margin-right: 10px;
+}
+.right-top-left-img-segment img, .right-top-right-img-segment img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+
+}
+.right-top-right-img-segment img{
+    margin-left: 10px;
+}
+.right-bottom-img-segment img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-top: 10px;
 }
