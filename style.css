@@ -71,16 +71,32 @@ header{
     color: black;
     font-size: 18px;
     font-weight: 400;
+    transition: all 500ms ease-out ;
+}
+.nav-items a:hover{
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+}
+#disabled-link{
+    color: gray; 
+}
+#disabled-link:hover{
+    color: white;
 }
 
-.disabled-link{
-    color: gray !important; 
-}
 .button {
     text-decoration: none;
     background-color: #3361ec;
     color: white;
     padding: 10px 20px;
+    transition: all 500ms ease-out;
+}
+.button:hover{
+    background-color: white;
+    border: 2px solid gray;
+    color: black;
+    font-weight: bold;
 }
 .header-title{
     max-width: 75%;
@@ -124,10 +140,14 @@ header{
     /* padding-bottom: 50px; */
     background-color: white;
     width: calc(100% - 20%);
-    top: 450px;
+    top: 440px;
     left: 100px;
     right: 100px;
     box-shadow: 2px 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+#search-btn:hover{
+    background-color: white;
+    color: black; 
 }
 .first-row span{
     display: inline-block;
@@ -174,6 +194,10 @@ header{
     width: 100%;
     object-fit: cover;
 }
+.left-second{
+    width: 100%;
+    position: relative;
+}
 .left-first img{
     height: 200px;
     margin-bottom: 10px;
@@ -182,6 +206,43 @@ header{
 .left-second img{
     height: 400px;
     object-fit: cover;
+}
+.coffee-house{
+    position: absolute;
+    bottom: 20px;
+    background-color: white;
+    padding: 20px 15px;
+    width: calc(100% - 20px);
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.1);
+}
+.coffee-house div{
+    display: inline-block;
+    vertical-align: middle;
+}
+.coffee-house div:first-child{
+    width: 75%;
+    /* border: 2px solid yellow; */
+    text-align: left;
+}
+.coffee-house div:last-child{
+    width: 25%;
+    /* border: 2px solid yellow; */
+    text-align: right;
+}
+.coffee-house a{
+    display: inline-block;
+    width: 40px;
+    height: 40px; 
+    /* text-decoration: none; */
+    text-align: middle;
+    border-radius: 50%;
+    line-height: 40px;
+    text-align: center; 
+}
+.coffee-house div p{
+    color: gray;
 }
 .right-img-segment {
     width: calc(70% - 10px);
@@ -255,6 +316,12 @@ header{
     background-color: white;
     border: 1px solid gray;
     color: black;
+    transition: all 500ms ease-out;
+}
+.contact-btn:hover{
+    background-color:#3361ec;
+    color: white;
+    border: none;
 }
 
 /* services section  */
@@ -321,6 +388,32 @@ header{
     height: 300px;
     border: 10px solid white;
 }
+.coffee-house-2 h3, p{
+    color: gray;
+}
+.coffee-house-2 h3{
+    font-size: 14px;
+}
+.coffee-house-2 p{
+    font-size: 12px;
+}
+.coffee-house-2 div:first-child, .coffee-house-2 div:last-child{
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.coffee-house-2 .right-arrow{
+    display: inline-block;
+    width: 40px;
+    height: 40px; 
+    /* text-decoration: none; */
+    text-align: middle;
+    border-radius: 50%;
+    line-height: 40px;
+    text-align: center;
+}
+
 
 /* customer feedback section  */
 .customer-feedback-section{
@@ -398,6 +491,7 @@ footer{
     background-color:#f1f6f7;
     padding-top: 50px;
     padding-bottom: 50px;
+    margin-bottom: -100px;
 }
 .logo{
     /* border: 2px solid red; */
@@ -419,6 +513,12 @@ footer{
 .footer-link-items a{
     text-decoration: none;
     color: gray;
+    transition: all 500ms ease-out;
+}
+.footer-link-items a:hover{
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
 }
 .social-icon{
     width: 25%;
